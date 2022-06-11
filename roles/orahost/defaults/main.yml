@@ -164,8 +164,8 @@
       - xorg-x11-utils
       - xorg-x11-xauth
       - binutils
-      - compat-libstdc++-33
-      - compat-libstdc++-33.i686
+#      - compat-libstdc++-33
+#      - compat-libstdc++-33.i686
       - unixODBC-devel
       - unixODBC-devel.i686
       - gcc

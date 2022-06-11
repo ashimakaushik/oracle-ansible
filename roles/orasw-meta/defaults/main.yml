@@ -1,4 +1,8 @@
 db_homes_config:
+  19300-base:
+    home: db1-base
+    version: 19.3.0.0
+    edition: EE
   18300-base:
     home: db1-base
     version: 18.3.0.0
@@ -23,9 +27,12 @@ db_homes_config:
 
 
 db_homes_installed:
+     - home: 19300-base
+       apply_patches: False
+       state: present 
      - home: 18300-base
        apply_patches: False
-       state: present
+       state: absent
      - home: 12201-base
        apply_patches: False
        state: absent
